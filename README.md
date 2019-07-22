@@ -28,7 +28,7 @@
 
 lassoで線形回帰を行う。最適化手法にはproximal gradient method(**PG**)を用いる。
 
-そしてハイパーパラメータ$\lambda$ を変えたときのregularization pathを表示する。
+そしてハイパーパラメータ $\lambda$ を変えたときのregularization pathを表示する。
 
 
 
@@ -49,7 +49,7 @@ SVMの実装を行い、
 
 ガウシアンカーネルを用いて非線形SVMを構築する。
 
-データの数、$\alpha$ を変更してその結果を示す。
+データの数、 $\alpha$ を変更してその結果を示す。
 
 
 
