@@ -35,11 +35,8 @@ def Loss(Z, A, lam=0.01):
     omega = np.sum(s)
     return psi/2+lam*omega
 
-u, s, vh = np.linalg.svd(projection(A,A))
-print(u[0])
+
 Z = np.random.rand(m,n)
-u, s, vh = np.linalg.svd(Z)
-print(u[0])
 
 Z_history = []
 loss_history = []
@@ -51,13 +48,8 @@ for t in range(num_iter):
     Z = prox(Z-eta*(projection(Z,A)-projection(A,A)))
     if t>2:
         if loss_history[-2]-loss_history[-1]<0.0001:
-            print(t)
             break
 
-# plt.plot(loss_history)
-# plt.xlabel('t')
-# plt.ylabel('Loss')
-# print(A)
-# print(Z-projection(A,A))
+
 plt.pcolor(Z)
 plt.show()
