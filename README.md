@@ -63,5 +63,5 @@ nuclear normを用いてnullを含む不完全な行列の補完を行う。
 最適化手法にはproximal gradient methodを用いる。
 
 元の行列と補完した行列をsurface plottingにより表示する。
-####　復旧前データ
+#### 復旧前データ
 ![元データ](https://github.com/yutake27/Machine_Learning_assignment/blob/master/fig/6_data.png)
