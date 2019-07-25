@@ -51,6 +51,7 @@ SVMの実装を行い、
 ガウシアンカーネルを用いて非線形SVMを構築する。
 
 データの数、 ハイパーパラメータalphaを変更してその結果を示す。
+![example](https://github.com/yutake27/Machine_Learning_assignment/blob/master/fig/5_a1_n100.png)
 
 
 
@@ -61,3 +62,4 @@ nuclear normを用いてnullを含む不完全な行列の補完を行う。
 最適化手法にはproximal gradient methodを用いる。
 
 元の行列と補完した行列をsurface plottingにより表示する。
+![元データ](https://github.com/yutake27/Machine_Learning_assignment/blob/master/fig/6_data.png)
